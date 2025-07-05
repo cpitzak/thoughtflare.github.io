@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ThoughtFlare – Daily wisdom from mental models, stoicism, and financial clarity." />
+  <title>ThoughtFlare</title>
+
+    <!-- Favicon (browser tab + bookmarks) -->
+  <link rel="icon" href="app-icon.png" type="image/png" sizes="512x512" />
+  <link rel="apple-touch-icon" href="app-icon.png" />
+  
+  <style>
+    :root {
+      --bg-dark: #0b1220;
+      --text-main: #e1e8f0;
+      --text-subtle: #8ea0b8;
+      --accent-gold: #ffcc00;
+      --accent-blue: #00b4ff;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .icon {
+      width: 96px;
+      height: 96px;
+      margin-bottom: 1.5rem;
+      border-radius: 20%;
+      box-shadow: 0 0 12px rgba(0, 180, 255, 0.3);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      color: var(--accent-gold);
+      margin: 0.5rem 0;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      color: var(--text-subtle);
+      margin-bottom: 2rem;
+      max-width: 500px;
+    }
+
+    .cta {
+      background-color: var(--accent-blue);
+      color: #000;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta:hover {
+      background-color: #009cd8;
+    }
+
+    .quote-preview {
+      margin-top: 3rem;
+      font-style: italic;
+      color: #ccc;
+      max-width: 600px;
+      font-size: 1rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.85rem;
+      color: var(--text-subtle);
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2.2rem; }
+      h2 { font-size: 1rem; }
+      .quote-preview { font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Replace with your actual icon file path -->
+  <img class="icon" src="app-icon.png" alt="ThoughtFlare App Icon" />
+
+  <h1>ThoughtFlare</h1>
+  <h2>Mental Models. Stoicism. Wealth Clarity. Daily wisdom to sharpen your thinking.</h2>
+
+  <a class="cta" href="https://apps.apple.com" target="_blank">Coming Soon to the App Store</a>
+
+  <div class="quote-preview">
+    “Wealth is the product of a man’s capacity to think.” – Ayn Rand
+  </div>
+
+  <footer>
+    &copy; 2025 ThoughtFlare. All rights reserved.
+  </footer>
+</body>
+</html>
